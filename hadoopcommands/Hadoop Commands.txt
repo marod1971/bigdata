@@ -1,0 +1,8 @@
+## Hadoop Commands
+hadoop fs -ls '/home/rodmig1971/'
+
+hadoop fs -mkdir -p '/home/rodmig1971/demo-hadoop-3'
+
+hadoop fs -put /home/rodmig1971/shakespeare.raw ./demo-hadoop-3/shakespeare.raw
+
+hadoop fs -put /home/rodmig1971/shakespeare.raw './demo-hadoop-3/shakespeare.raw'
